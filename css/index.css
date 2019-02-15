@@ -28,9 +28,42 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+}
+
+.topnav a {
+    margin-top: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.topimg {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding:20px;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+}
+
+.topimg h2 {
+    margin-top: 20px;
+}
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -104,7 +137,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -126,6 +158,34 @@ p {
     padding-right: 0;
 }
 
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.child {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    border-bottom: 1px solid black;
+
+}
+
+h2 {
+    margin-top: 2px;
+}
+
+.button1 {
+    border: 1px solid black;
+    margin: 10px;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center; 
+    padding-top: 5px;
+}
+
 footer {
     width: 100%;
     background: black;
@@ -144,3 +204,52 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.bottombaby {
+    margin: 20px;
+    margin-bottom: 20px;
+}
+
+/*Not sure if this was the most efficent way to do this lol*/
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
+
+
