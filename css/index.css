@@ -52,6 +52,12 @@ footer, header, hgroup, menu, nav, section {
     justify-content: center;
     margin: 20px;
     padding:20px;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+}
+
+.topimg h2 {
+    margin-top: 20px;
 }
 
 body {
@@ -152,6 +158,34 @@ p {
     padding-right: 0;
 }
 
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.child {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    border-bottom: 1px solid black;
+
+}
+
+h2 {
+    margin-top: 2px;
+}
+
+.button1 {
+    border: 1px solid black;
+    margin: 10px;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center; 
+    padding-top: 5px;
+}
+
 footer {
     width: 100%;
     background: black;
@@ -171,6 +205,10 @@ footer nav a {
     text-decoration: none;
 }
 
+.bottombaby {
+    margin: 20px;
+    margin-bottom: 20px;
+}
 
 /*Not sure if this was the most efficent way to do this lol*/
 
